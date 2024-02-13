@@ -1,0 +1,166 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 500vh;
+  }
+
+  .navbar {
+    background-color: #ffffff;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 65px;
+    width: 90%;
+    align-items: center;
+  }
+
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  .mid-menu{
+    color: #717171 !important;
+  }
+  .mid-menu:hover {
+    background-color: #e9e5e552;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: #222222 !important;
+  }
+  
+  .navbar-menu a {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 10px;
+    text-decoration: none;
+  }
+  
+  .navbar-account {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #hover-tag a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 10px;
+
+  }
+  #world a img{
+    width: 17px;
+    height: 16px;
+    padding: 0 10px;
+  }
+  #user-menu{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(173, 164, 164, 0.268);
+    padding: 5px 10px 5px 20px;
+    border-radius: 50px;
+    gap: 10px;
+  }
+
+  #user-menu:hover {
+    box-shadow: 0px 2px 5px rgba(202, 198, 198, 0.5);    
+  }
+
+  #hover-tag a:hover {
+    background-color: #e9e5e552;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+  }
+  #world a img:hover {
+    background-color: #e9e5e552;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  hr {
+    border: 1px solid rgba(166, 158, 158, 0.214);
+  }
+
+  .scroll-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(202, 198, 198, 0.647); 
+  }
+  .scroll-bar a {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+  }
+  .scroll-bar a img {
+    width: 18px;
+  }
+
+  .align {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .where input {
+    background-color: transparent;
+    color: #222222;
+    outline: none;
+    border: none;
+    font-size: 14px;
+  }
+  .where a {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .where {
+    padding-left: 30px;
+  }
+  .check-in, .check-out, .who {
+    font-size: 12px;
+  }
+
+  .check-in .sub-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+  }
+  .check-out .sub-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+  }
+  .who .sub-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+  }
+
+  .btn-search {
+    margin: 0 0 0 70px;
+    background-color: #ff385c;
+    padding: 13px;
+    border-radius: 50%;
+  }
